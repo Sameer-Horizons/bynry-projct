@@ -1,0 +1,34 @@
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.nav-links li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+.d{
+  background: none;
+  
+}
+.clear-button {
+  height: 28px;
+  background: none;
+  color: rgb(255, 255, 255);
+  border-radius: 40%;
+  margin-left: 2px;
+  
+}
