@@ -62,6 +62,8 @@ const Addprofile= ({ onAddProfile, onEditProfile, selectedProfile }) => {
             <input type="text" name="description" value={profile.description} onChange={handleChange} placeholder="Description" required />
             <input type="text" name="text" value={profile.address.text} onChange={handleChange} placeholder="Address" required />
             <button type="submit">{profile.id ? 'Update Profile' : 'Add Profile'}</button>
+           
+          
         </form>
         </div>
     );

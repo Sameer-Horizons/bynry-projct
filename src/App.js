@@ -7,7 +7,6 @@ import './Bar.css';
 import About from './About';
 import Home from './Home';
 import Addprofile from './Addprofile';
-import Person1 from './Person1';
 function App() {
   return (
     <>
@@ -24,7 +23,6 @@ function App() {
             <Route path="/Profiles" element={<ProfileList />} />
             <Route path="/About" element={<About />} />
             <Route path="/button" element={<ProfileList/>} />
-            <Route path="/person1" element={<Person1/>} />
             <Route path="/createprofile" element={<Addprofile/>} />
 
 
